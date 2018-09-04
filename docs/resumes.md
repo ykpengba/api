@@ -2006,5 +2006,5 @@ items[].limit | number | Максимальное количество комп�
 * `names_and_photo` — заменяет на `null` значение полей `first_name`, `last_name`, `middle_name` и `photo`.
 * `phones` — заменяет на `null` значение поля `contact[].value` с полем `contact[].type`, равным `cell`, `work` или `home`
 * `email` — заменяет на `null` значение поля `contact[].value` с полем `contact[].type`, равным `email`
-* `other_contacts` — заменяет на `null` значение поля `contact[].value`, если поле `contact[].type` содержится в словаре [resume_contacts_site_type](dictionaries.md)
+* `other_contacts` — заменяет на `null` значение полей `site[].url`
 * `experience` — заменяет на `null` поля `experience[].company`, `experience[].company_id`, `experience[].company_url`, `experience[].employer`; заменяет значение поля `recommendation` на пустой список
